@@ -1,0 +1,38 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.qua{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    animation: 2s tam linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes tam {
+     0%{
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 200px;
+     }
+ 
+              
+     100%{
+        top: -250px;
+        left: -620px;
+        width: 70px;
+        height: 70px;;
+}
+
+}
